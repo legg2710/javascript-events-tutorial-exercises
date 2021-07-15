@@ -5,11 +5,5 @@ window.calculateSumListener = function() {
 	//Return the value of the input #secondNumber
 	var stringB = document.getElementById("secondNumber").value;
 
-	var stringC = parseInt(stringA + stringB);
-
-	var stringD = document.getElementById("resultNumber").value;
-
-	document.getElementById("resultNumber").value = parseInt(stringC);
-
 	//your code goes here
 };
